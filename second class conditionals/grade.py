@@ -18,7 +18,6 @@ score = int(input("Score: "))
 #     print("Grade B")
 # elif score <= 70 < 80:
 #     print("Grade C")
-# elif score <= 60 < 70:
 #     print("Grade D")
 # else:
 #     print("Grade A")
@@ -30,6 +29,7 @@ if score >= 90:
 elif score >= 80:
     print("Grade B")
 elif score >= 70:
+# elif score <= 60 < 70:
     print("Grade C")
 elif score >= 60:
     print("Grade D")
